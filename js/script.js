@@ -34,7 +34,7 @@ const API_KEY = "844acb690d3b0e979cf92fcb";
 
 async function getExchangeRate() {
   const amountValue = amountEl.value;
-  exRateTxt.textContent = "Please Wait...............";
+  exRateTxt.textContent = "Please Wait.................";
 
   try {
     const response = await fetch(
